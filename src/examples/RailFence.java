@@ -1,10 +1,14 @@
 package examples;
 
+/**
+ * @author namiq
+ *
+ */
 public class RailFence {
 
 	public static void main(String[] args) {
 		
-		String plainText = "helloworld";
+		String plainText = "salamdunya";
 		int k = 4;
 		int a = 0;
 		int l = plainText.length();
@@ -18,7 +22,6 @@ public class RailFence {
 				bool = true;
 			if (a == 0)
 				bool = false;
-
 			if (bool)
 				a--;
 			else
